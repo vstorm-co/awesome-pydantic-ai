@@ -26,6 +26,8 @@
 - [pydantic-ai-middleware](https://github.com/vstorm-co/pydantic-ai-middleware) - Lightweight middleware library providing clean before/after hooks without imposed guardrail structure. Supports input/output processing, tool management, error handling, rate limiting, and audit logging.
 - [pydantic-ai-backend](https://github.com/vstorm-co/pydantic-ai-backend) - File storage, sandbox backends, and console toolset for pydantic-ai agents. Includes LocalBackend, StateBackend, DockerSandbox, and pre-configured Docker runtimes.
 - [pydantic-ai-todo](https://github.com/vstorm-co/pydantic-ai-todo) - Standalone task planning library for pydantic-ai agents. Provides `read_todos` and `write_todos` tools with flexible storage backends.
+- [subagents-pydantic-ai](https://github.com/vstorm-co/subagents-pydantic-ai) - Multi-agent orchestration library with dual-mode execution (sync/async), dynamic agent creation, and parent-child communication via `ask_parent` tool.
+- [summarization-pydantic-ai](https://github.com/vstorm-co/summarization-pydantic-ai) - Automatic conversation summarization and context management. Provides `SummarizationProcessor` for LLM-based summaries and `SlidingWindowProcessor` for zero-cost message trimming.
 - [pydantic-ai-filesystem-sandbox](https://github.com/zby/pydantic-ai-filesystem-sandbox) - Secure filesystem sandbox toolset with LLM-friendly errors. Provides sandboxing, read/write control, granular permissions, and human-in-the-loop approval workflows.
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Standardized framework for building and managing Agent Skills. Features progressive disclosure, type-safe design, multi-directory support, and Anthropic Agent Skills compatibility.
 
