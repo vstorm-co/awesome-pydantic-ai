@@ -40,6 +40,7 @@
 ## Examples & Tutorials
 
 - [pydantic-ai-examples](https://github.com/vstorm-co/pydantic-ai-examples) - Curated collection of examples demonstrating Pydantic AI usage including direct model requests, sentiment classification, dynamic classification, local models with Ollama, and conversation history management.
+- [pydantic-ai-rlm](https://github.com/vstorm-co/pydantic-ai-rlm) - Recursive Language Models with Pydantic AI.
 
 ## Observability
 
