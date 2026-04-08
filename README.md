@@ -31,6 +31,7 @@
 - [summarization-pydantic-ai](https://github.com/vstorm-co/summarization-pydantic-ai) - Automatic conversation summarization and context management. Provides `SummarizationProcessor` for LLM-based summaries and `SlidingWindowProcessor` for zero-cost message trimming.
 - [pydantic-ai-filesystem-sandbox](https://github.com/zby/pydantic-ai-filesystem-sandbox) - Secure filesystem sandbox toolset with LLM-friendly errors. Provides sandboxing, read/write control, granular permissions, and human-in-the-loop approval workflows.
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Standardized framework for building and managing Agent Skills. Features progressive disclosure, type-safe design, multi-directory support, and Anthropic Agent Skills compatibility.
+- [pydantic-ai-toolguard](https://github.com/stevenkozeniesky02/pydantic-ai-toolguard) - Deny-first tool authorization capability for pydantic-ai agents. Implements glob-based permission rules, parameter conditions, schedule windows, rate limiting, approval workflows, and append-only audit logging. Built on the AgentsID permission specification.
 - [pydantic-collab](https://github.com/boazkatzir/pydantic-collab) - Multi-agent orchestration framework for building agent teams. Agents collaborate via handoffs, consultations (tool calls), and shared memory on top of pre-built and custom network topologies, Logfire observability included.
 
 ## Templates & Boilerplates
