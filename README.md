@@ -23,6 +23,7 @@
 ## Frameworks & Libraries
 
 - [pai-agent-sdk](https://github.com/youware-labs/pai-agent-sdk) - Application framework for building AI agents with Pydantic AI. Provides full developer control without abstraction overhead, featuring environment-based architecture, resumable sessions, hierarchical subagents, and human-in-the-loop approval workflows.
+- [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) - MCP payment execution layer for Pydantic AI agents accessing paid APIs, with human approval, spend caps, and x402 support.
 - [pydantic-deep](https://github.com/vstorm-co/pydantic-deepagents) - Python framework for building production-grade autonomous agents. Extends Pydantic AI with agent orchestration, task planning, subagent delegation, context management, and multiple backend support.
 - [pydantic-ai-middleware](https://github.com/vstorm-co/pydantic-ai-middleware) - Lightweight middleware library providing clean before/after hooks without imposed guardrail structure. Supports input/output processing, tool management, error handling, rate limiting, and audit logging.
 - [pydantic-ai-backend](https://github.com/vstorm-co/pydantic-ai-backend) - File storage, sandbox backends, and console toolset for pydantic-ai agents. Includes LocalBackend, StateBackend, DockerSandbox, and pre-configured Docker runtimes.
