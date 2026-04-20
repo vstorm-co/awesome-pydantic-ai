@@ -33,6 +33,7 @@
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Standardized framework for building and managing Agent Skills. Features progressive disclosure, type-safe design, multi-directory support, and Anthropic Agent Skills compatibility.
 - [pydantic-ai-toolguard](https://github.com/stevenkozeniesky02/pydantic-ai-toolguard) - Deny-first tool authorization capability for pydantic-ai agents. Implements glob-based permission rules, parameter conditions, schedule windows, rate limiting, approval workflows, and append-only audit logging. Built on the AgentsID permission specification.
 - [pydantic-collab](https://github.com/boazkatzir/pydantic-collab) - Multi-agent orchestration framework for building agent teams. Agents collaborate via handoffs, consultations (tool calls), and shared memory on top of pre-built and custom network topologies, Logfire observability included.
+- [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - Semantic output validation for Pydantic AI agents. Validates that LLM outputs match natural-language intents using local NLI inference (~15ms, no API key). Integrates with `output_validator` and `ModelRetry` for automatic self-correction.
 
 ## Templates & Boilerplates
 
