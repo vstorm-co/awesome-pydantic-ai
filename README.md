@@ -34,6 +34,7 @@
 - [pydantic-ai-toolguard](https://github.com/stevenkozeniesky02/pydantic-ai-toolguard) - Deny-first tool authorization capability for pydantic-ai agents. Implements glob-based permission rules, parameter conditions, schedule windows, rate limiting, approval workflows, and append-only audit logging. Built on the AgentsID permission specification.
 - [pydantic-collab](https://github.com/boazkatzir/pydantic-collab) - Multi-agent orchestration framework for building agent teams. Agents collaborate via handoffs, consultations (tool calls), and shared memory on top of pre-built and custom network topologies, Logfire observability included.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - Semantic output validation for Pydantic AI agents. Validates that LLM outputs match natural-language intents using local NLI inference (~15ms, no API key). Integrates with `output_validator` and `ModelRetry` for automatic self-correction.
+- [pydantic-ai-ejentum](https://github.com/ejentum/pydantic-ai-ejentum) - PydanticAI Toolset wrapping the Ejentum Reasoning Harness. `EjentumToolset` subclasses `FunctionToolset` and registers four agent-callable tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each call returns a structured cognitive scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the model reads internally to shape its next response.
 
 ## Templates & Boilerplates
 
