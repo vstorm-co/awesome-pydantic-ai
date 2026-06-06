@@ -36,6 +36,8 @@
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - Semantic output validation for Pydantic AI agents. Validates that LLM outputs match natural-language intents using local NLI inference (~15ms, no API key). Integrates with `output_validator` and `ModelRetry` for automatic self-correction.
 - [pydantic-ai-ejentum](https://github.com/ejentum/pydantic-ai-ejentum) - PydanticAI Toolset wrapping the Ejentum Reasoning Harness. `EjentumToolset` subclasses `FunctionToolset` and registers four agent-callable tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each call returns a structured cognitive scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the model reads internally to shape its next response.
 
+- [twzrd-agent-intel](https://github.com/twzrd-sol/twzrd-agent-intel) - Trust scoring and x402 payment verification MCP server for Pydantic AI agents operating on Solana. Exposes `resolve_agent`, `score_agent`, `preflight_check`, `verify_trust_receipt`, and `get_trust_receipt` tools via streamable-http. Zero-install: `{"mcpServers": {"twzrd-agent-intel": {"url": "https://intel.twzrd.xyz/mcp"}}}`.
+
 ## Templates & Boilerplates
 
 - [full-stack-fastapi-nextjs-llm-template](https://github.com/vstorm-co/full-stack-fastapi-nextjs-llm-template) - Production-ready project generator for AI/LLM applications. Combines FastAPI backend with Next.js 15 frontend, WebSocket streaming, JWT auth, multiple database options, and 20+ enterprise integrations.
