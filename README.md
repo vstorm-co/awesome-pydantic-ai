@@ -46,6 +46,7 @@
 - [pydantic-ai-rlm](https://github.com/vstorm-co/pydantic-ai-rlm) - Recursive Language Models with Pydantic AI.
 - [Pydantic AI Walkthrough](https://colab.research.google.com/drive/12oZEM098SG2bYq0D1UGyW9YHKEbEkSNi?usp=sharing) - Interactive notebook covering agents, structured outputs, tool use, dependency injection, and building a Gradio chat UI with Pydantic AI. Created by [Nicolai Thomsen](https://www.linkedin.com/feed/update/urn:li:activity:7439395531006693376/?actorCompanyId=93077574).
 - [Pydantic AI: Build Type-Safe LLM Agents in Python](https://realpython.com/pydantic-ai/) - RealPython tutorial on creating language model agents with validated structured outputs, function calling, and dependency injection.
+- [Add live web search to a Pydantic AI agent](https://superhighway.walls.sh/guides/web-search-pydantic-ai) - Guide to adding live web search via MCPServerStdio (x402 pay-per-call wallet) or @agent.tool_plain REST tools with a free API key. Covers all five tools: web_search, news_search, image_search, scrape, research.
 
 ## Observability
 
