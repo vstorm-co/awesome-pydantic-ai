@@ -36,6 +36,8 @@
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - Semantic output validation for Pydantic AI agents. Validates that LLM outputs match natural-language intents using local NLI inference (~15ms, no API key). Integrates with `output_validator` and `ModelRetry` for automatic self-correction.
 - [pydantic-ai-ejentum](https://github.com/ejentum/pydantic-ai-ejentum) - PydanticAI Toolset wrapping the Ejentum Reasoning Harness. `EjentumToolset` subclasses `FunctionToolset` and registers four agent-callable tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each call returns a structured cognitive scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the model reads internally to shape its next response.
 
+- [IronClaw](https://github.com/IronSecCo/ironclaw/tree/main/examples/integrations/pydantic-ai) - Run a Pydantic AI agent's tool and code execution inside a sealed, per-session gVisor sandbox (`network=none`, non-root uid, no host filesystem, no Docker socket) instead of on your host. Drop-in `Tool` adapter; the model key stays host-side. Ships a one-command, zero-credential containment demo that proves benign code runs while network exfil, host-fs reads, and Docker-socket takeover are blocked.
+
 ## Templates & Boilerplates
 
 - [full-stack-fastapi-nextjs-llm-template](https://github.com/vstorm-co/full-stack-fastapi-nextjs-llm-template) - Production-ready project generator for AI/LLM applications. Combines FastAPI backend with Next.js 15 frontend, WebSocket streaming, JWT auth, multiple database options, and 20+ enterprise integrations.
