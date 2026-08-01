@@ -37,6 +37,7 @@
 - [pydantic-ai-ejentum](https://github.com/ejentum/pydantic-ai-ejentum) - PydanticAI Toolset wrapping the Ejentum Reasoning Harness. `EjentumToolset` subclasses `FunctionToolset` and registers four agent-callable tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each call returns a structured cognitive scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the model reads internally to shape its next response.
 - [fedotmas-harness](https://github.com/ITMO-NSS-Team/fedotmas-harness) - Orchestrates Pydantic AI agents into common multi-agent patterns with a tiny engine where any function or state machine is also an agent.
 - [pydantic-ai-chdb](https://github.com/chdb-io/pydantic-ai-chdb) - Analytical SQL capability backed by chDB, the in-process ClickHouse engine. `ChDBCapability` registers query and schema-discovery tools over local files (Parquet/CSV/JSON), object storage, and remote databases — no server or credentials, engine-level read-only default, and typed engine errors mapped to `ModelRetry` for automatic self-correction. Listed under Third-Party Capabilities in the official Pydantic AI docs.
+- [mash-core](https://github.com/isatimur/mash-core) - Provider-agnostic LLM-judge core built on Pydantic AI: the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff tuned for judge calls.
 
 ## Templates & Boilerplates
 
