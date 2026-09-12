@@ -51,6 +51,8 @@
 - [Pydantic AI: Build Type-Safe LLM Agents in Python](https://realpython.com/pydantic-ai/) - RealPython tutorial on creating language model agents with validated structured outputs, function calling, and dependency injection.
 - [Add live web search to a Pydantic AI agent](https://superhighway.walls.sh/guides/web-search-pydantic-ai) - Guide to adding live web search via MCPServerStdio (x402 pay-per-call wallet) or @agent.tool_plain REST tools with a free API key. Covers all five tools: web_search, news_search, image_search, scrape, research.
 
+- [ParlayAPI sport metadata with PydanticAI](https://github.com/JacobiusMakes/parlayapi-notebooks/tree/main/integrations/pydanticai-coverage) - Runnable example with typed sport reports, MCP metadata access, and local agent tests that reject invented counts and preserve missing observations.
+
 ## Observability
 
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - Observability platform for Python applications built by the Pydantic team. Provides logging, tracing, metrics with SQL query interface, OpenTelemetry foundation, and native Pydantic integration.
