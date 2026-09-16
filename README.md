@@ -54,6 +54,7 @@
 ## Observability
 
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - Observability platform for Python applications built by the Pydantic team. Provides logging, tracing, metrics with SQL query interface, OpenTelemetry foundation, and native Pydantic integration.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Pydantic AI agent's provider exchange at the wire level and replays it offline with no model called; run it as `orca record generic-openai -- python your_agent.py`, which moves `OPENAI_BASE_URL` — the variable `OpenAIProvider` honours, measured on pydantic-ai-slim 2.43.0 (it ignores `OPENAI_API_BASE`).
 
 ## Articles & Blog Posts
 
