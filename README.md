@@ -39,6 +39,7 @@
 - [fedotmas-harness](https://github.com/ITMO-NSS-Team/fedotmas-harness) - Orchestrates Pydantic AI agents into common multi-agent patterns with a tiny engine where any function or state machine is also an agent.
 - [pydantic-ai-chdb](https://github.com/chdb-io/pydantic-ai-chdb) - Analytical SQL capability backed by chDB, the in-process ClickHouse engine. `ChDBCapability` registers query and schema-discovery tools over local files (Parquet/CSV/JSON), object storage, and remote databases — no server or credentials, engine-level read-only default, and typed engine errors mapped to `ModelRetry` for automatic self-correction. Listed under Third-Party Capabilities in the official Pydantic AI docs.
 - [mash-core](https://github.com/isatimur/mash-core) - Provider-agnostic LLM-judge core built on Pydantic AI: the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff tuned for judge calls.
+- [tradefloor](https://github.com/simoncoombes/tradefloor) - Simulated stock market for testing trading agents. Its `PydanticAIAdapter` runs a Pydantic AI agent inside a market where its orders move prices, scores it across many markets, and records the model's answers so the run replays without an API key.
 
 ## Templates & Boilerplates
 
