@@ -52,6 +52,7 @@
 - [Pydantic AI: Build Type-Safe LLM Agents in Python](https://realpython.com/pydantic-ai/) - RealPython tutorial on creating language model agents with validated structured outputs, function calling, and dependency injection.
 - [Add live web search to a Pydantic AI agent](https://superhighway.walls.sh/guides/web-search-pydantic-ai) - Guide to adding live web search via MCPServerStdio (x402 pay-per-call wallet) or @agent.tool_plain REST tools with a free API key. Covers all five tools: web_search, news_search, image_search, scrape, research.
 - [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) - Daily research-monitoring pipeline that uses Pydantic AI's native typesafe: model (TypeSafe Jev) for per-question source screening and a Qwen model through the Alibaba provider for report prose, with OpenTelemetry tracing.
+- [LinkedIn profiles in Pydantic AI: a LinkedIn tool through MCP or a function tool](https://datacircle.dev/blog/linkedin-profiles-pydantic-ai) - Datacircle's MCP server or one function tool in a Pydantic AI agent: it gets a LinkedIn profile from its URL, through Up2Data, HarvestAPI or Fetchin.
 
 ## Observability
 
