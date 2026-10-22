@@ -58,6 +58,7 @@
 
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - Observability platform for Python applications built by the Pydantic team. Provides logging, tracing, metrics with SQL query interface, OpenTelemetry foundation, and native Pydantic integration.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Pydantic AI agent's provider exchange at the wire level and replays it offline with no model called; run it as `orca record generic-openai -- python your_agent.py`, which moves `OPENAI_BASE_URL` — the variable `OpenAIProvider` honours, measured on pydantic-ai-slim 2.43.0 (it ignores `OPENAI_API_BASE`).
+- [Rius](https://github.com/glassflow/rius-sdk-python) - Hosted, OpenTelemetry-native observability for AI agents by GlassFlow. Records Pydantic AI's own agent run, model request and tool call spans as traces with token counts and cost, via an MIT-licensed Python SDK ([guide](https://docs.glassflow.ai/rius/sdk/integrations/pydantic-ai)).
 
 ## Articles & Blog Posts
 
