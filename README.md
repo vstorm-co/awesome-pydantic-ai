@@ -40,6 +40,7 @@
 - [pydantic-ai-chdb](https://github.com/chdb-io/pydantic-ai-chdb) - Analytical SQL capability backed by chDB, the in-process ClickHouse engine. `ChDBCapability` registers query and schema-discovery tools over local files (Parquet/CSV/JSON), object storage, and remote databases — no server or credentials, engine-level read-only default, and typed engine errors mapped to `ModelRetry` for automatic self-correction. Listed under Third-Party Capabilities in the official Pydantic AI docs.
 - [mash-core](https://github.com/isatimur/mash-core) - Provider-agnostic LLM-judge core built on Pydantic AI: the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff tuned for judge calls.
 - [AgenticOS](https://github.com/vstorm-co/agenticos) - Open-source, self-hosted workspace for company AI agents built on Pydantic AI. Agents are built in the browser, shared in team chats and run under budgets, approvals and an audit log.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
 
 ## Templates & Boilerplates
 
