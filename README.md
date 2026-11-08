@@ -41,6 +41,7 @@
 - [mash-core](https://github.com/isatimur/mash-core) - Provider-agnostic LLM-judge core built on Pydantic AI: the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff tuned for judge calls.
 - [AgenticOS](https://github.com/vstorm-co/agenticos) - Open-source, self-hosted workspace for company AI agents built on Pydantic AI. Agents are built in the browser, shared in team chats and run under budgets, approvals and an audit log.
 - [Call4Agents](https://github.com/salahmakboul/call4agents) - Makes approved Pydantic AI tool calls safe to retry: a crash or resume does not run them twice, and an approval only runs the exact call the person saw.
+- [LLMSlim](https://github.com/Thanatos9404/llmslim) - Token-budget history processor for Pydantic AI agents: `llmslim_history_processor` plugs into `ProcessHistory` and compresses older text and tool output locally with no model call, keeping tool calls paired with their returns.
 
 ## Templates & Boilerplates
 
