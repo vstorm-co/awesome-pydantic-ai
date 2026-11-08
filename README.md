@@ -39,6 +39,8 @@
 - [fedotmas-harness](https://github.com/ITMO-NSS-Team/fedotmas-harness) - Orchestrates Pydantic AI agents into common multi-agent patterns with a tiny engine where any function or state machine is also an agent.
 - [pydantic-ai-chdb](https://github.com/chdb-io/pydantic-ai-chdb) - Analytical SQL capability backed by chDB, the in-process ClickHouse engine. `ChDBCapability` registers query and schema-discovery tools over local files (Parquet/CSV/JSON), object storage, and remote databases — no server or credentials, engine-level read-only default, and typed engine errors mapped to `ModelRetry` for automatic self-correction. Listed under Third-Party Capabilities in the official Pydantic AI docs.
 - [mash-core](https://github.com/isatimur/mash-core) - Provider-agnostic LLM-judge core built on Pydantic AI: the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff tuned for judge calls.
+- [AgenticOS](https://github.com/vstorm-co/agenticos) - Open-source, self-hosted workspace for company AI agents built on Pydantic AI. Agents are built in the browser, shared in team chats and run under budgets, approvals and an audit log.
+- [Call4Agents](https://github.com/salahmakboul/call4agents) - Makes approved Pydantic AI tool calls safe to retry: a crash or resume does not run them twice, and an approval only runs the exact call the person saw.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - Token-budget history processor for Pydantic AI agents: `llmslim_history_processor` plugs into `ProcessHistory` and compresses older text and tool output locally with no model call, keeping tool calls paired with their returns.
 
 ## Templates & Boilerplates
@@ -53,11 +55,13 @@
 - [Pydantic AI: Build Type-Safe LLM Agents in Python](https://realpython.com/pydantic-ai/) - RealPython tutorial on creating language model agents with validated structured outputs, function calling, and dependency injection.
 - [Add live web search to a Pydantic AI agent](https://superhighway.walls.sh/guides/web-search-pydantic-ai) - Guide to adding live web search via MCPServerStdio (x402 pay-per-call wallet) or @agent.tool_plain REST tools with a free API key. Covers all five tools: web_search, news_search, image_search, scrape, research.
 - [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) - Daily research-monitoring pipeline that uses Pydantic AI's native typesafe: model (TypeSafe Jev) for per-question source screening and a Qwen model through the Alibaba provider for report prose, with OpenTelemetry tracing.
+- [AI Agents with PydanticAI](https://ai-courses.org/courses/pydantic-ai) - Free eight-lesson Python course on tools, multi-agent patterns, memory, testing and deployment, with downloadable MIT-licensed examples.
 
 ## Observability
 
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - Observability platform for Python applications built by the Pydantic team. Provides logging, tracing, metrics with SQL query interface, OpenTelemetry foundation, and native Pydantic integration.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Pydantic AI agent's provider exchange at the wire level and replays it offline with no model called; run it as `orca record generic-openai -- python your_agent.py`, which moves `OPENAI_BASE_URL` — the variable `OpenAIProvider` honours, measured on pydantic-ai-slim 2.43.0 (it ignores `OPENAI_API_BASE`).
+- [Rius](https://github.com/glassflow/rius-sdk-python) - Hosted, OpenTelemetry-native observability for AI agents by GlassFlow. Records Pydantic AI's own agent run, model request and tool call spans as traces with token counts and cost, via an MIT-licensed Python SDK ([guide](https://docs.glassflow.ai/rius/sdk/integrations/pydantic-ai)).
 
 ## Articles & Blog Posts
 
