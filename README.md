@@ -43,6 +43,7 @@
 - [Call4Agents](https://github.com/salahmakboul/call4agents) - Makes approved Pydantic AI tool calls safe to retry: a crash or resume does not run them twice, and an approval only runs the exact call the person saw.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - Token-budget history processor for Pydantic AI agents: `llmslim_history_processor` plugs into `ProcessHistory` and compresses older text and tool output locally with no model call, keeping tool calls paired with their returns.
 - [tradefloor](https://github.com/simoncoombes/tradefloor) - Simulated stock market for testing trading agents. Its `PydanticAIAdapter` runs a Pydantic AI agent inside a market where its orders move prices, scores it across many markets, and records the model's answers so the run replays without an API key.
+- [Agent Adapter](https://github.com/VeloceAI/agent-adapter) - Turns one plain Python function into Pydantic AI tools that also run in 17 other frameworks or over MCP, adding durable human approvals, budgets, a cost ledger, guards, caching and OpenTelemetry traces.
 
 ## Templates & Boilerplates
 
