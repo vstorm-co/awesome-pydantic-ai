@@ -43,6 +43,7 @@
 - [Call4Agents](https://github.com/salahmakboul/call4agents) - Makes approved Pydantic AI tool calls safe to retry: a crash or resume does not run them twice, and an approval only runs the exact call the person saw.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - Token-budget history processor for Pydantic AI agents: `llmslim_history_processor` plugs into `ProcessHistory` and compresses older text and tool output locally with no model call, keeping tool calls paired with their returns.
 - [tradefloor](https://github.com/simoncoombes/tradefloor) - Simulated stock market for testing trading agents. Its `PydanticAIAdapter` runs a Pydantic AI agent inside a market where its orders move prices, scores it across many markets, and records the model's answers so the run replays without an API key.
+- [feraterra-sdk](https://github.com/FeraTerra/feraterra-sdk) - Zero-dependency Python SDK for headless L3 crypto derivatives trading whose `create_pydantic_ai_toolset()` registers a typed `FunctionToolset` (`list_markets`, `get_orderbook`, `get_leaderboard`, `preview_order`, `verify_ledger_tip`) alongside a 25-tool MCP execution gateway.
 
 ## Templates & Boilerplates
 
