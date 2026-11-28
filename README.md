@@ -43,7 +43,7 @@
 - [Call4Agents](https://github.com/salahmakboul/call4agents) - Makes approved Pydantic AI tool calls safe to retry: a crash or resume does not run them twice, and an approval only runs the exact call the person saw.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - Token-budget history processor for Pydantic AI agents: `llmslim_history_processor` plugs into `ProcessHistory` and compresses older text and tool output locally with no model call, keeping tool calls paired with their returns.
 - [tradefloor](https://github.com/simoncoombes/tradefloor) - Simulated stock market for testing trading agents. Its `PydanticAIAdapter` runs a Pydantic AI agent inside a market where its orders move prices, scores it across many markets, and records the model's answers so the run replays without an API key.
-- [Evokai](https://github.com/Giordyfish/evokai) - Self-hosted runtime that puts Pydantic AI agents into any app: a chat and voice web component, the app's tools over MCP called as the signed-in user, confirmation before every change, budgets, a guard against prompt injection and personal data leaks, EU data residency. Apache-2.0.
+- [Evokai](https://github.com/Giordyfish/evokai) - Self-hosted runtime that puts Pydantic AI agents into any app: a chat and voice web component, the app's tools over MCP called as the signed-in user, confirmation before any tool not marked read-only, budgets, a guard against prompt injection and personal data leaks, configurable data-protection policies (for example, EU-only endpoints). Apache-2.0.
 
 ## Templates & Boilerplates
 
